@@ -22,3 +22,5 @@ For Heroku Setup
 
 
 
+
+install pip install autoenv==1.0.0 and create .env file to manage all stuff.
