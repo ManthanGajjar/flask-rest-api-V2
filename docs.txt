@@ -2,7 +2,7 @@ Project Flask-apis-V2 is basically structure way to represent flask projects.
 
 FYI: Flask itself is very flexible. It has no certain pattern for a project folder structure.
 
-
+learning source: https://realpython.com/flask-by-example-part-1-project-setup/
 
 1. create one directory
 2. create python project env -> python3 -m venv env
@@ -17,6 +17,8 @@ For Heroku Setup
 2. run touch Procfile ( creates new file Procfile) & add this line -> web: gunicorn app:app
 3. install -> python -m pip install gunicorn==20.0.4
 4. create readme.txt with and add your python version like python-3.8.1.
-5. create heroku project
+5. create heroku project & go to console 
+6. connect your github repo in deploy + select latest branch and deploy
+
 
 
